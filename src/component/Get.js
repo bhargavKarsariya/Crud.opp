@@ -104,7 +104,7 @@ const saveData=  async ()=>{
       <td>{user.lastName}</td>
       <td>{user.email}</td>
       <td  >
-          <div className='d-flex align-items-center'>
+          <div className='d-flex justify-content-center align-items-center'>
         <Stack direction={"row"} spacing={9}>
 
      <EditOutlined onClick={()=> {handleClickOpen(user)}}   />
